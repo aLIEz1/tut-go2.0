@@ -52,11 +52,11 @@
                 </view>
                 <view class="cu-item">
                     <view class="cu-avatar radius lg"
-                          style="background-image:url('/images/goods/匕首/2.png');">
+                          style="background-image:url('/images/goods/手枪/1.png');">
                     </view>
                     <view class="content">
                         <view class="text-orange">
-                            <text class="text-cut">折叠刀|深红之网</text>
+                            <text class="text-cut">沙漠之鹰|大佬龙</text>
                         </view>
                     </view>
                     <view class="action">
@@ -66,10 +66,10 @@
                 </view>
                 <view class="cu-item ">
                     <view class="cu-avatar radius lg"
-                          style="background-image:url('/images/goods/匕首/3.png');"></view>
+                          style="background-image:url('/images/goods/步枪/1.png');"></view>
                     <view class="content">
                         <view class="text-yellow">
-                            <text class="text-cut">暗影双匕|渐变之色</text>
+                            <text class="text-cut">M4A4|黑色魅影</text>
                         </view>
                     </view>
                     <view class="action">
@@ -79,10 +79,10 @@
                 </view>
                 <view class="cu-item ">
                     <view class="cu-avatar radius lg"
-                          style="background-image:url('/images/goods/匕首/4.png');"></view>
+                          style="background-image:url('/images/goods/冲锋枪/1.png');"></view>
                     <view class="content">
                         <view class="text-grey">
-                            <text class="text-cut">蝴蝶刀|渐变大理石</text>
+                            <text class="text-cut">MAC-10|霓虹骑士</text>
                         </view>
                     </view>
                     <view class="action">
@@ -92,11 +92,11 @@
                 </view>
                 <view class="cu-item">
                     <view class="cu-avatar radius lg"
-                          style="background-image:url('/images/goods/匕首/5.png');">
+                          style="background-image:url('/images/goods/霰弹枪/1.png');">
                     </view>
                     <view class="content">
                         <view class="text-grey">
-                            <text class="text-cut">熊刀|渐变之色</text>
+                            <text class="text-cut">截短|启示录</text>
                         </view>
                     </view>
                     <view class="action">

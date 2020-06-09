@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c78067cf-e0b6-4e56-b626-1e0543b00257" name="Default Changelist" comment="2.0">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goods/匕首/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goods/匕首/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goods/匕首/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goods/匕首/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goods/匕首/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goods/冲锋枪/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goods/手枪/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goods/步枪/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goods/霰弹枪/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/start1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/evaluate/evaluate.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evaluate/evaluate.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gift/gift.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gift/gift.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/market/market.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/market/market.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorUI/demo/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/ColorUI/demo/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/market/market.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/market/market.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/market/market.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/market/market.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recovery/recovery.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recovery/recovery.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sell/sell.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sell/sell.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/wantToBuy/wantToBuy.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wantToBuy/wantToBuy.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Wechat mini program page js file(Page API)" />
+        <option value="Wechat mini program page json file(Page API)" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -51,13 +74,14 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stud\Desktop\tut-go2.0\images\goods\匕首" />
-      <recent name="C:\Users\stud\Desktop\tut-go2.0\images\goods" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\stud\Desktop\tut-go2.0\images\goods" />
       <recent name="C:\Users\stud\Desktop\tut-go2.0\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tut-go2.0\images" />
+      <recent name="C:\Users\stud\Desktop\tut-go2.0\images\goods\匕首" />
+      <recent name="C:\Users\stud\Desktop\tut-go2.0\images\goods" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -73,6 +97,9 @@
       <workItem from="1591682049868" duration="351000" />
       <workItem from="1591682552911" duration="3602000" />
       <workItem from="1591686169141" duration="5970000" />
+      <workItem from="1591695272824" duration="377000" />
+      <workItem from="1591695693493" duration="4626000" />
+      <workItem from="1591701070861" duration="4911000" />
     </task>
     <task id="LOCAL-00001" summary="2.0">
       <created>1591686484603</created>
@@ -87,7 +114,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2.0" />
     <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
@@ -104,9 +144,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="451" y="204" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591686223865" />
-    <state x="542" y="305" key="Vcs.Push.Dialog.v2" timestamp="1591686497054">
+    <state x="542" y="305" key="Vcs.Push.Dialog.v2" timestamp="1591695701199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="542" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591686497054" />
+    <state x="542" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591695701199" />
   </component>
 </project>

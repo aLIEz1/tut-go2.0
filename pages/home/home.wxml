@@ -77,6 +77,18 @@
         </view>
 
     </view>
+    <swiper class="swiperitem margin-top solid-bottom" autoplay="true" vertical="true" circular="true" bindchange="lineschange">
+        <block wx:for="{{Headlines}}" wx:key="index">
+            <swiper-item  bindtap="linesclick">
+                <view class="cu-bar bg-white">
+                    <view class='action'>
+                        <text class='cuIcon-activity text-green'></text>
+                        <text>头条：{{item.title}}</text>
+                    </view>
+                </view>
+            </swiper-item>
+        </block>
+    </swiper>
 
     <view class="home-main">
         <!--热门饰品-->

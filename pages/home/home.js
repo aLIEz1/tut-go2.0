@@ -30,6 +30,11 @@ Page({
                 detail: "久经沙场",
                 img_url: "/images/goods/手套.png"
             },
+        ],
+        Headlines:[
+            {title:'AWP|王子 已上架'},
+            {title:'M4A1消音型|二号玩家 已上架'},
+            {title:'AWP|永恒之枪 已上架'},
         ]
     },
     onLoad() {
