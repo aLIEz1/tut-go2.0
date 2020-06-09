@@ -3,7 +3,7 @@
 @import "/ColorUI/demo/colorui/icon.wxss";
 @import "/ColorUI/demo/colorui/animation.wxss";
 @import "/ColorUI/demo/colorui/components/cu-custom.wxss";
-
+@import "/ColorUI/demo/pages/plugin/verticalnav/verticalnav.wxss";
 .container {
   height: 100%;
   display: flex;

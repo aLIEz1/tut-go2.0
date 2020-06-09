@@ -1,36 +1,37 @@
-.container {
-  display: flex;
-  height: 100%;
+/* pages/component/nav/nav.wxss */
+.VerticalNav.nav {
+  width: 200rpx;
+  white-space: initial;
 }
 
-.left-box {
-  width: 140rpx;
-  border-right: 1rpx solid #D8D8D8;
-}
-
-.menu-item {
-  padding: 20rpx 20rpx;
-  /* display: flex; */
-  display: block;
-  align-items: center;
-  /* justify-content: flex-end; */
-  font-size: 32rpx;
-  border-left: 6rpx solid #fff;
+.VerticalNav.nav .cu-item {
+  width: 100%;
   text-align: center;
-  line-height: 40rpx;
+  background-color: #fff;
+  margin: 0;
+  border: none;
+  height: 50px;
+  position: relative;
 }
 
-.menu-item.selected {
-  color: red;
-  border-left-color: gold;
+.VerticalNav.nav .cu-item.cur {
+  background-color: #f1f1f1;
 }
-
-.right-box {
-  flex: 1;
-  transition: all 1000ms ease-in-out;
-
+.VerticalNav.nav .cu-item.cur::after {
+  content: "";
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 10rpx 0 0 10rpx;
+  position: absolute;
+  background-color: currentColor;
+  top: 0;
+  right: 0rpx;
+  bottom: 0;
+  margin: auto;
 }
-
-.foods-type-box {
-  height: 100%;
+.VerticalBox{
+  display: flex;
+}
+.VerticalMain{
+  background-color: #f1f1f1;
 }

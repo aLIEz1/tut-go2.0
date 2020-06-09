@@ -1,2 +1,4 @@
-<!--pages/recovery/recovery.wxml-->
-<text>pages/recovery/recovery.wxml</text>
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+    <view slot="backText"></view>
+    <view slot="content">饰品回收</view>
+</cu-custom>
