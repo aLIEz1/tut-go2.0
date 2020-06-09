@@ -1,0 +1,55 @@
+<cu-custom bgColor="bg-gradual-pink">
+	<!-- <view slot="backText">返回</view> -->
+	<view slot="content">我</view>
+</cu-custom>
+
+
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击获取头像</button>
+		<!-- <view class="backImg">
+			<image src="../../images/backgroundImg/timg (1).jpg"></image>
+		</view> -->
+		<block>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+		</block>
+	</view>
+
+		<view class="cu-list menu shadow-lg margin-top-xl" bindtap="toMyshop">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="cuIcon-shop text-black"></text>
+          <text class="text-black"> 我的店铺</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-list menu shadow-lg margin-top-xl" bindtap="toFavor">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="cuIcon-favor text-black"></text>
+          <text class="text-black"> 我的收藏</text>
+        </view>
+      </view>
+    </view>
+
+<view class="cu-list menu shadow-lg margin-top-xl" bindtap="toRecharge">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="cuIcon-coin text-black"></text>
+          <text class="text-black"> 剩余G币</text>
+          <text class="text-grey" id="balance">{{balance}}</text>
+        </view>
+      </view>
+    </view>
+
+		<view class="cu-list menu shadow-lg margin-top-xl" bindtap="toSetting">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="cuIcon-settings text-black"></text>
+          <text class="text-black"> 设置</text>
+        </view>
+      </view>
+    </view>
+	</view>

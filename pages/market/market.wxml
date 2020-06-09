@@ -1,0 +1,18 @@
+<cu-custom bgColor="bg-gradual-pink">
+	<!-- <view slot="backText">返回</view> -->
+	<view slot="content">饰品市场</view>
+</cu-custom>
+
+
+<view class="container">
+	<!-- <view class="category-box"> -->
+		<view class="left-box">
+				<text wx:for="{{categories}}" wx:key="index" class="menu-item {{currentMenuIndex===index? 'selected':''}}" data-id="{{item.id}}" data-index="{{index}}" data-title-name="{{item.name}}" bindtap="changeCategory">
+					{{item.name}}
+				</text>
+		</view>
+		<view class="right-box">
+			<!-- <image src="/images/goods/9.png"></image> -->
+		</view>
+	<!-- </view> -->
+</view>

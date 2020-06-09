@@ -1,0 +1,41 @@
+<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击获取头像</button>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+<view class="cu-list menu shadow-lg margin-top-xl">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="text-black">昵称</text>
+          <text class="text-grey" id="userName"> {{userInfo.nickName}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-list menu shadow-lg margin-top-xl">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="text-black">性别</text>
+          <text class="text-grey" id="userName"> {{userSex}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-list menu shadow-lg margin-top-xl">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="text-black">STEAM ID</text>
+          <text class="text-grey" id="userName"> {{steamId}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-list menu shadow-lg margin-top-xl">
+      <view class="cu-item arrow">
+        <view class="content">
+          <text class="text-black">邮箱</text>
+          <text class="text-grey" id="userName"> {{mail}}</text>
+        </view>
+      </view>
+    </view>
+
+	</view>

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left-box {
+  width: 140rpx;
+  border-right: 1rpx solid #D8D8D8;
+}
+
+.menu-item {
+  padding: 20rpx 20rpx;
+  /* display: flex; */
+  display: block;
+  align-items: center;
+  /* justify-content: flex-end; */
+  font-size: 32rpx;
+  border-left: 6rpx solid #fff;
+  text-align: center;
+  line-height: 40rpx;
+}
+
+.menu-item.selected {
+  color: red;
+  border-left-color: gold;
+}
+
+.right-box {
+  flex: 1;
+  transition: all 1000ms ease-in-out;
+
+}
+
+.foods-type-box {
+  height: 100%;
+}

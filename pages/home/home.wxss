@@ -1,0 +1,27 @@
+@import "/ColorUI/demo/colorui/main.wxss";
+@import "/ColorUI/demo/colorui/icon.wxss";
+@import "/ColorUI/demo/colorui/animation.wxss";
+@import "/ColorUI/demo/colorui/components/cu-custom.wxss";
+
+.swiper_item image{
+    width: 100%;
+    height: 100%;
+}
+.swiper_item{
+    width: 100%;
+    height: 100%;
+}
+.swiper{
+    width: 100%;
+    height:400rpx;
+}
+
+.home-main-header{
+    display: flex;
+    justify-content: center;
+    height: 60rpx;
+    align-items: center;
+    color: #ab956D;
+    font-size: 32rpx;
+    margin: 20rpx 0;
+  }

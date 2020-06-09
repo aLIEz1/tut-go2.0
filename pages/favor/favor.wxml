@@ -1,0 +1,4 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+	<view slot="backText"></view>
+	<view slot="content">收藏夹</view>
+</cu-custom>
